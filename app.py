@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
@@ -17,7 +17,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+database = []
 
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
+@app.get("/todos")
+async def get_all_todos():
+  return database
+
+@app.post("/todos")
+async def create_todo(request: Request):
+  todo = await request.json()
+  database.append(todo)
+  return todo
+
+
