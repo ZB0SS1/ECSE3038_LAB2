@@ -4,8 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
-    "http://localhost.tiangolo.com",
-    "https://localhost.tiangolo.com",
+    "https://ecse-week3-demo.netlify.app/",
     "http://localhost",
     "http://localhost:8080",
 ]
