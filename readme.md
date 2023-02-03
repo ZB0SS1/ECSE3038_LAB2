@@ -89,7 +89,8 @@ this code was written as an assignment to become more familiar with the FastAPI 
 ## My Favourite Pokémon
 
 # Mewtwo (Pokémon)
-![Alt text](https://bulbapedia.bulbagarden.net/wiki/File:0150Mewtwo.png "Mewtwo")
+
+![Alt text](https://archives.bulbagarden.net/media/upload/8/89/0150Mewtwo.png "Mewtwo")
 
 Mewtwo (Japanese: ミュウツー Mewtwo) is a Psychic-type Legendary Pokémon introduced in Generation I.
 
